@@ -75,6 +75,7 @@ main .web-dev {
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 88px;
+    border-radius: 16px;
 }
 
 main .web-dev .info-container {
@@ -206,7 +207,7 @@ main .inspiration .inspiration-info {
 }
 
 .inspiration .inspiration-video {
-    width: 90%;
+    width: 100%;
     height: 614px;
     border: 1px solid #0d132133;
     margin: 0 auto;
@@ -221,3 +222,87 @@ main .inspiration .inspiration-info {
     border-radius: 16px;
 }
 /* Inspiration section end here */
+
+/* Current target section start from here */
+
+.current-target {
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.current-target .target-info .target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.current-target .target-info .target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.current-target .target-language-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+    margin-top: 48px;
+}
+
+.current-target .target-language-container .target {
+    width: 24%;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.current-target .target-language-container .target .target-title {
+    color: #0d1321;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.current-target .target-language-container .target .target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.current-target .target-language-container .target .learn-more {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.current-target .target-language-container .target-1 {
+    background: #ff4c1e0d;
+}
+
+.current-target .target-language-container .target-2 {
+    background: #004ce80d;
+}
+
+.current-target .target-language-container .target-3 {
+    background-color: #ffdf000d;
+}
+/* Current target section end here */
